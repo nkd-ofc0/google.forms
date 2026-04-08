@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acessando Cetor...</title>
 
-    <meta http-equiv="refresh" content="0; url=https://www.google.com/search?q=Cetor+Manuten%C3%A7%C3%A3o+Predial&oq=cetor+manu&gs_lcrp=EgZjaHJvbWUqDggBEEUYJxg7GIAEGIoFMgYIABBFGDkyDggBEEUYJxg7GIAEGIoFMgYIAhAjGCcyEAgDEC4YrwEYxwEYgAQYjgUyBwgEEAAYgAQyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQg3MDA3ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8">
+    <meta http-equiv="refresh" content="0; url=https://www.google.com/search?sca_esv=15ff0100134ea361&sxsrf=ANbL-n4Hlm3S9EPGRuuo5lZFpy5xQXByDQ:1775684595191&si=AL3DRZEsmMGCryMMFSHJ3StBhOdZ2-6yYkXd_doETEE1OR-qOV9xOM2oJgD08PrutQrLJjXw4KnANytW1RRIf-8Y-1ZE-UH3gYQAKLKF9ZCj3U8yYbnoQnObSDr_v5tU9BLsGODwKkHENKlMCLyCabDLkickSpfmew%3D%3D&q=Cetor+Manuten%C3%A7%C3%A3o+Predial+Coment%C3%A1rios&sa=X&ved=2ahUKEwiy8J3MnN-TAxXwF7kGHWBHNr4Q0bkNegQIIhAH&biw=1536&bih=703&dpr=1.25">
 
     <style>
         body {
@@ -46,7 +46,7 @@
         // 1. Pega a URL definida lá em cima na meta tag
         const metaTag = document.querySelector('meta[http-equiv="refresh"]');
         // Extrai a URL limpa
-        const urlDestino = metaTag ? metaTag.getAttribute('content').split('url=')[1] : 'https://www.google.com/search?q=Cetor+Manuten%C3%A7%C3%A3o+Predial&oq=cetor+manu&gs_lcrp=EgZjaHJvbWUqDggBEEUYJxg7GIAEGIoFMgYIABBFGDkyDggBEEUYJxg7GIAEGIoFMgYIAhAjGCcyEAgDEC4YrwEYxwEYgAQYjgUyBwgEEAAYgAQyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQg3MDA3ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8';
+        const urlDestino = metaTag ? metaTag.getAttribute('content').split('url=')[1] : 'https://www.google.com/search?sca_esv=15ff0100134ea361&sxsrf=ANbL-n4Hlm3S9EPGRuuo5lZFpy5xQXByDQ:1775684595191&si=AL3DRZEsmMGCryMMFSHJ3StBhOdZ2-6yYkXd_doETEE1OR-qOV9xOM2oJgD08PrutQrLJjXw4KnANytW1RRIf-8Y-1ZE-UH3gYQAKLKF9ZCj3U8yYbnoQnObSDr_v5tU9BLsGODwKkHENKlMCLyCabDLkickSpfmew%3D%3D&q=Cetor+Manuten%C3%A7%C3%A3o+Predial+Coment%C3%A1rios&sa=X&ved=2ahUKEwiy8J3MnN-TAxXwF7kGHWBHNr4Q0bkNegQIIhAH&biw=1536&bih=703&dpr=1.25';
 
         // 2. Atualiza o link visual (caso o usuário precise clicar)
         const linkElement = document.getElementById('link-destino');
